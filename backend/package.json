@@ -1,0 +1,44 @@
+{
+  "name": "itil-problem-management-backend",
+  "version": "1.0.0",
+  "description": "ITIL Problem Management Agent - Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ITIL",
+    "Problem Management",
+    "ServiceNow",
+    "Analysis"
+  ],
+  "author": "Shantanu Rakshit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5",
+    "csv-parser": "^3.0.0",
+    "lodash": "^4.17.21",
+    "date-fns": "^2.30.0",
+    "pptxgen": "^3.12.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/express": "^4.17.17",
+    "@types/multer": "^1.4.7",
+    "@types/lodash": "^4.14.196",
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1"
+  }
+}
